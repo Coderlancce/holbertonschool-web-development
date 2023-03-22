@@ -3,14 +3,17 @@ body {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
+
+/* HEADER SECTION */
+
 .headerdiv {
-    background-color: yellow;
+    background-color: #071629;
     display: flex;
     justify-content: space-around;
 }
 
 .headermenu {
-    background-color: aqua;
+    background-color: #071629;
     display: flex;
     align-items: center;
 }
@@ -21,10 +24,15 @@ body {
     color: white;
 }
 
+/* PRESENTATION SECTION: TITLE AND REGISTER*/
+
+.firstsection {
+    background-color: #071629;
+}
+
 .presentsectiondiv {
     height: 400px;
     width: 100%;
-    background-color: blue;
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -54,14 +62,61 @@ body {
     font-size: 14px;
 }
 
+
+/*PRESENTATION SECTION: AUTHORS*/
+
 .sectitle {
     display: flex;
     text-indent: 10px;
     justify-content: center;
-    font-weight: 40px;
+    color: white;
 }
 
 .sectitlep {
-    font-weight: 10px;
     color: #C271FF;
+}
+
+.sectitletext {
+    font-weight: 100;
+}
+
+.authordiv {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+.authorbox {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.authoritem {
+    height:220px;
+    width: 140px;
+    padding: 40px 0px 0px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.authorname {
+    font-size: 14px;
+    font-weight: 2200;
+    color: white;
+}
+
+.imgRedonda {
+    width:110px;
+    height:110px;
+    border-radius:55px;
+}
+
+.authortext {
+    font-style: italic;
+    font-size: 12px;
+    text-align: center;
+    margin: 0px;
+    color: white;
 }
