@@ -8,12 +8,14 @@ body {
 
 .headerdiv {
     background-color: #071629;
+    opacity: 90%;
     display: flex;
     justify-content: space-around;
 }
 
 .headermenu {
     background-color: #071629;
+    opacity: 90%;
     display: flex;
     align-items: center;
 }
@@ -24,10 +26,18 @@ body {
     color: white;
 }
 
+.imageback {
+    background: url(Bitmap\ Black.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-color: #071629;
+}
+
 /* PRESENTATION SECTION: TITLE AND REGISTER*/
 
 .firstsection {
     background-color: #071629;
+    opacity: 90%;
 }
 
 .presentsectiondiv {
@@ -50,6 +60,7 @@ body {
     border-radius: 20px;
     border-color: transparent;
     box-shadow: 1px 1px 2px 2px rgb(98, 97, 97);
+    width: 140px;
     height: 30px;
     background-color: #C271FF;
     color: white;
@@ -90,6 +101,7 @@ body {
 .authorbox {
     display: flex;
     justify-content: space-evenly;
+    
 }
 
 .authoritem {
@@ -119,4 +131,40 @@ body {
     text-align: center;
     margin: 0px;
     color: white;
+}
+
+
+/* SECTION TWO "QUOTE"*/
+
+
+.quotesection {
+    background-color: #C271FF;
+    padding: 60px 0px;
+}
+
+.divquote {
+    display: flex;
+    justify-content: center;
+}
+
+.quotetext {
+    color: white;
+    padding-left: 40px;
+    width: 600px;
+}
+
+.parquote {
+    margin: 0px 0px 40px 0px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.subtitlequote {
+    font-weight: bold;
+    margin: 0px;
+}
+
+.namequote {
+    margin: 5px 0px;
+    font-style: italic;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
