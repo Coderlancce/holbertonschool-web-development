@@ -7,14 +7,14 @@ body {
 /* HEADER SECTION */
 
 .headerdiv {
-    background-color: #071629;
+    background-color: transparent;
     opacity: 90%;
     display: flex;
     justify-content: space-around;
 }
 
 .headermenu {
-    background-color: #071629;
+    background-color: transparent;
     opacity: 90%;
     display: flex;
     align-items: center;
@@ -27,17 +27,17 @@ body {
 }
 
 .imageback {
-    background: url(Bitmap\ Black.png);
+    background: url(Background.png);
+    background-size: cover;
+    background-position: center center;
     background-repeat: no-repeat;
-    background-size: 100%;
     background-color: #071629;
 }
 
 /* PRESENTATION SECTION: TITLE AND REGISTER*/
 
 .firstsection {
-    background-color: #071629;
-    opacity: 90%;
+    background-image: linear-gradient(to top, #071629, transparent);
 }
 
 .presentsectiondiv {
@@ -167,4 +167,86 @@ body {
     margin: 5px 0px;
     font-style: italic;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/* SECTION OF VIDEOS*/
+
+.videosection {
+    background-color: white;
+}
+
+.titlevideosection {
+    padding: 40px 0px;
+    font-weight: 100;
+    display: flex;
+    justify-content: center;
+}
+
+.videosectioncolor {
+    color: #C271FF;
+}
+
+.videosectionpoints {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.videoimage {
+    width: 60px;
+    height: 60px;
+    padding: 20px 90px 20px 90px;
+    
+}
+
+.videosectionuniqpoints {
+    width: 240px;
+}
+
+.titlevideouniqpoints {
+    font-size: 18px;
+    margin-left: 20px;
+}
+
+.textvideouniqpoints {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: gray;
+    font-size: 14px;
+    margin-left: 20px;
+}
+
+.authorvideosectionimage {
+    width: 40px;
+    height: 40px;
+    border-radius: 25px;
+    margin-left: 10px;
+}
+
+.videoauthorsec {
+    display: flex;
+    align-items: center;
+}
+
+.authornamevideosec {
+    color: #C271FF;
+    font-size: 16px;
+}
+
+.valuevideosec {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 20px;
+}
+
+.stars {
+    width: 20px;
+    height: 20px;
+}
+
+.containervideoimage {
+    width: 240px;
+    height: 100px;
+    background-image: url(https://img.freepik.com/free-vector/thank-you-lettering_1262-7412.jpg?w=740&t=st=1679335728~exp=1679336328~hmac=2365d4481f0fc7487fefb33d134b2d1ef09700841602d44389084f1da45c3a0d);
+    background-size: cover;
+    background-position: center;
 }
